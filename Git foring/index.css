@@ -13,5 +13,6 @@ h1{
     border-bottom: 2px solid rgb(202, 131, 131);
   }
 em {
-  font-family: "Cascadia Mono"; /* 注意双引号这个细节，想想原因 */
+  font-family: "华文楷体"; /* 注意双引号这个细节，想想原因 */
+  border-bottom:1px solid rgb(92, 201, 59);
 }
