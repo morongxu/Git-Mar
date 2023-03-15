@@ -1,0 +1,17 @@
+/*注释*/
+p {
+    background-color: rgb(128, 219, 133);
+    border: 3px solid rgb(35, 117, 155);
+    color: rgba(96, 80, 185, 0.596);
+    }
+h1, h2 {
+    font-family: arial;
+    color: rgb(204, 216, 43);
+    border-bottom:1px solid rgb(92, 201, 59);
+  }
+h1{
+    border-bottom: 2px solid rgb(202, 131, 131);
+  }
+em {
+  font-family: "Cascadia Mono"; /* 注意双引号这个细节，想想原因 */
+}
