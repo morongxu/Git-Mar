@@ -19,3 +19,10 @@ em {
 h1 {
 font-size: 10vw; 
 }
+body{
+	color: royalblue;
+	color: rgb(71,72,76);
+	color: #4169E1CC;
+	color: rgba(37, 55, 56, 0.24);
+	color: #2775b6CC;
+}
