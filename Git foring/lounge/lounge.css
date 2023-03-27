@@ -1,0 +1,47 @@
+
+body {
+	font-size: small;
+	font-family: Verdana, Helvetica, Arial;
+  line-height:  2.5em;
+}
+
+h1, h2 {
+	color: #007e7e; 
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+}
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px; /* 新增内边距 */
+}
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px; 
+  margin:              30px;  /* 新增外边距 */
+}
+
+html{
+  border-width: 1.9em;
+  font-size: italic;
+  border-color: #444444;
+  font-family: Georgia, "Times New Roman";
+}
