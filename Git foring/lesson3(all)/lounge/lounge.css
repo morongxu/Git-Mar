@@ -1,0 +1,79 @@
+
+body {
+	font-size: small/2.5em  Verdana, Helvetica, Arial;
+}
+
+h1, h2 {
+	color: #007e7e; 
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+#guarantee {
+  border:        1px dashed white;
+  background-color:    #a7cece; 
+  margin:              30px;  /* 新增外边距 */
+}
+
+html{
+  border: 1.9em #444444;
+  font: italic Georgia, "Times New Roman";
+}
+#guarantee {
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding:25px;
+
+  padding-left: 80px;
+  margin-right: 250px;
+  border: thin rgb(73,76,74)  solid;
+
+  border-radius: 100%;
+}
+/*
+#guarantee{
+  border-top-right-radius: 80%;
+  border-top-left-radius:80%;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
+}
+*/
+p{
+  border: dashed white;
+  border-top-right-radius:2em;
+  border-bottom-left-radius: 2em;
+}
+.elixirs{
+  border-style: solid #007e7e thin;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 020px;
+  background: url(/lounge/images/cocktail.gif) repeat-x;
+  text-align: center;
+}
+div h2{
+  color: #000000;
+}
+/*.elixirs h2 {
+  color: #000000;
+}
+*/
+.elixirs h3{
+  color: #d12c47;
+  line-height: 1;
+}
+.footer{
+  font-size:    .5em;
+text-align:   center;
+line-height:  normal;
+margin-top: 30px;
+}
