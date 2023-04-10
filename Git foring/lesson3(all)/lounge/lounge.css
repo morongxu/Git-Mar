@@ -15,7 +15,7 @@ h2 {
 	font-size: 1.3em;
 }
 
-#guarantee {
+.guarantee {
   border:        1px dashed white;
   background-color:    #a7cece; 
   margin:              30px;  /* 新增外边距 */
@@ -30,12 +30,10 @@ html{
   background-repeat: no-repeat;
   background-position: top left;
   padding:25px;
-
   padding-left: 80px;
   margin-right: 250px;
   border: thin rgb(73,76,74)  solid;
-
-  border-radius: 100%;
+  border-radius: 80%;
 }
 /*
 #guarantee{
@@ -51,14 +49,15 @@ p{
   border-bottom-left-radius: 2em;
 }
 .elixirs{
-  border-style: solid #007e7e thin;
+  border: solid #007e7e thin;
   width: 200px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
   margin-left: 020px;
   background: url(/lounge/images/cocktail.gif) repeat-x;
-  text-align: center;
+  text-align: center;/*文本居中形式*/
+
 }
 div h2{
   color: #000000;
@@ -76,4 +75,31 @@ div h2{
 text-align:   center;
 line-height:  normal;
 margin-top: 30px;
+}
+.cd{
+  font-style:italic;
+  width: 600px;
+}
+.artist{
+  font-weight: bold;
+  border: thin rgb(73,76,74)  solid
+}
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
+.cname{
+  color: blue;
+}
+#iname{
+  color: lawngreen;
 }
