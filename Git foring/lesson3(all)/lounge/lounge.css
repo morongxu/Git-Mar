@@ -57,6 +57,7 @@ p{
   margin-left: 020px;
   background: url(/lounge/images/cocktail.gif) repeat-x;
   text-align: center;/*文本居中形式*/
+  float: right;
 
 }
 div h2{
