@@ -1,0 +1,46 @@
+.left {
+	margin-right: 10px;
+}
+.right {
+	margin-left: 20px;
+}
+.ruler {
+	display: inline-block;
+	width: 30px;
+}
+
+.right {
+	float: right;
+}
+div.block {
+	width: 45vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+div.top {
+	margin-bottom: 10px;
+}
+div.bottom {
+	margin-top: 20px;
+}
+div.ruler {
+	height: 20px;
+}
+
+div.v{
+	width: 30vw;
+	height: 15vh;
+	border: .5px solid red;
+}
+div.u{
+	width: 25vw;
+	height: 20vh;
+	border: .5px solid green;
+}
+.float-block {
+	width: 200px;
+	float: right;
+}
+h2{
+  width: 260px;
+}
