@@ -15,14 +15,19 @@ body {
   background:       #efe5d0 url(images/background#gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  margin:           0px 330px 10px 10px;
+  /*margin-right: 300px;*/
 }
 
 .sidebar {
+  position: absolute;
   background:       #efe5d0 url(images/background#gif) bottom right;
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
+  
+  width: 280px;
+  /* float: right; */
 }
 
 .footer {
@@ -32,6 +37,7 @@ body {
   padding:          15px;
   margin:           10px;
   font-size:        90%;
+  clear: right;
 }
 
 h1 {
