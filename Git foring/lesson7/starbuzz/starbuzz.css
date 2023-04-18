@@ -26,7 +26,11 @@ body {
   padding:          15px;
   margin:           0px 10px 10px 10px;
   
-  width: 280px;
+  left: 100px;
+  right: 150px;
+  bottom: 100px;
+  width: 100px;
+
   /* float: right; */
 }
 
@@ -49,7 +53,7 @@ h1 {
 
 .beanheading {
   text-align:       center;
-  line-height:      1#8em;
+  line-height:      1.8em;
 }
 
 a:link {
@@ -61,4 +65,12 @@ a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
+}
+ad{
+  position: absolute;
+  top: 150px;
+  left:100px;
+  width: 600px;
+  height: 80px;
+  background-color: #ccbb00;
 }
