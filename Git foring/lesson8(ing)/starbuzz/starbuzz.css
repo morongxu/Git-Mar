@@ -67,9 +67,7 @@ div.talbeRow {
 }
 .main {
   display: table-cell;
-  vertical-align: top;  /* 垂直对齐: 顶端对齐 */
 }
 .siderbar {
   display: table-cell;
-  vertical-align: top;
 }
