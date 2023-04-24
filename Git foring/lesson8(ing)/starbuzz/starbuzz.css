@@ -63,11 +63,41 @@ div.tableContainer {
   vertical-align: top;
 }
 div.talbeRow {
-  display: table-row;
+  display: table;
+  display: table-cell;
 }
 .main {
+  display: table;
   display: table-cell;
 }
-.siderbar {
+.sclassebar {
+  display: table;
   display: table-cell;
+}
+.drinks {
+  background-color: #efe5d0;
+  padding: 15px;
+  display: table;
+  display: table-cell;
+}
+/* .l{
+  background-position: 0px 0px;
+  float: left;
+}
+.r{
+  float: right;
+  background-position: -400px 0px;
+} */
+.sprite-container {
+    width: 50%; /* 显示的宽度为图片一半 */ 
+    height: 100%; /* 图片高度 */
+    overflow: hidden; /* 隐藏溢出部分 */ 
+    background-image: url('img_navsprites.gif');
+}
+.header-logo {
+	background-position: 0px 0px; /* 没有任何偏移 */
+}
+
+.header-slogan {
+	background-position: 00px 0px; /* 向左偏移 */
 }
