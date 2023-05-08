@@ -4,9 +4,8 @@ body {
   font-size:        small;
   margin:           0px;
 }
-
-.header {
-  background-color: .675c47;
+.header{
+  background-color: #675c47;
   margin:           10px;
   height:           108px;
 }
@@ -18,7 +17,7 @@ body {
   margin:           0px 10px 10px 10px;
 }
 
-.sidebar {
+.sclassebar {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
@@ -106,4 +105,23 @@ div.talbeRow {
 	background-image: url('images/header.gif');
 	background-position: 260px 0px; /* 向左偏移 */
   float: right;
+}
+.award {
+	position:absolute;
+	top: 30px;
+	left: 45%;
+}
+.coupon { 
+	position: fixed; 
+	top: 350px; 
+	left: -210px; /* 初始位置在左侧 */ 
+	transition: left 3s ease-out; /* 添加过渡效果 */
+
+}
+.coupon:hover {
+	left: 100px;
+  top: 60; /* 悬停时移动到 0px 的位置 */
+}
+.coupon a, img{
+	border: none;
 }
