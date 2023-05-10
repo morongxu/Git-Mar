@@ -111,17 +111,46 @@ top-slogan {
 	top: 30px;
 	left: 45%;
 }
-aside { 
+.sclassebar { 
 	position: fixed; 
 	top: 350px; 
 	left: -210px; /* 初始位置在左侧 */ 
 	transition: left 3s ease-out; /* 添加过渡效果 */
 
 }
-aside:hover {
+.sclassebar:hover {
 	left: 100px;
   top: 60; /* 悬停时移动到 0px 的位置 */
 }
-aside a, img{
+.sclassebar a, img{
 	border: none;
+}
+
+section.main, section.blog {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+/*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+nav ul li.selected {
+	background-color: #c8b99c;
 }
