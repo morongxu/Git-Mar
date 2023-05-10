@@ -4,13 +4,13 @@ body {
   font-size:        small;
   margin:           0px;
 }
-.header{
+top{
   background-color: #675c47;
   margin:           10px;
   height:           108px;
 }
 
-.main {
+section {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
@@ -24,7 +24,7 @@ body {
   margin:           0px 10px 10px 10px;
 }
 
-.footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -65,7 +65,7 @@ div.talbeRow {
   display: table;
   display: table-cell;
 }
-.main {
+section {
   display: table;
   display: table-cell;
 }
@@ -73,7 +73,7 @@ div.talbeRow {
   display: table;
   display: table-cell;
 }
-.drinks {
+section {
   background-color: #efe5d0;
   padding: 15px;
   display: table;
@@ -95,13 +95,13 @@ div.talbeRow {
     background-image: url('img_navsprites.gif');
 }
 
-.header-logo {
+top-logo {
 	background-image: url('images/header.gif');
 	background-position-x: 0px;
 	background-position-y: 0px; /* 没有任何偏移 */
 }
 
-.header-slogan {
+top-slogan {
 	background-image: url('images/header.gif');
 	background-position: 260px 0px; /* 向左偏移 */
   float: right;
@@ -111,17 +111,17 @@ div.talbeRow {
 	top: 30px;
 	left: 45%;
 }
-.coupon { 
+aside { 
 	position: fixed; 
 	top: 350px; 
 	left: -210px; /* 初始位置在左侧 */ 
 	transition: left 3s ease-out; /* 添加过渡效果 */
 
 }
-.coupon:hover {
+aside:hover {
 	left: 100px;
   top: 60; /* 悬停时移动到 0px 的位置 */
 }
-.coupon a, img{
+aside a, img{
 	border: none;
 }
