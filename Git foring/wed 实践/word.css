@@ -1,3 +1,55 @@
-.piccps{
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
+.Zhongxiao{
+  font-size: 0.7rem;
+  display: block;
+  text-align: center;
+  margin-top: -10px;
+}
+.xumo{
+  font-size: 1.3rem;
+  line-height: 1.8em;
+  letter-spacing: 0.1em;
+  font-family: "A1明朝";
+}
+.kongb{
+  padding: 30px 20px;
+}
+.img1{
+  position: relative;
+  overflow: hidden;
+}
+.size{
+  width:(50% - 25px);
+}
+.con-flex{
+  margin-bottom: 5vw;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.tu-sec:last-child {
+  margin-bottom: 0;
+}
+.thumb-wide {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: white;
+}
+.arr {
+  font-family: "A1明朝";
+  transition: all .3s;
+  padding-left: 32px;
+  position: relative;
+  font-size: 1rem;
+  transition: 0.5s all ease;
 }
